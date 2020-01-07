@@ -5,13 +5,15 @@ set $mod_ Mod1
 # Named workspaces
 #               
 #  
-set $ws1   "1:"
+#   # ひ
+#   # ほん
+set $ws1   "1:火"
 set $ws2   "2:"
-set $ws3   "3:"
+set $ws3   "3:本"
 set $ws4   "4:"
-set $ws5   "5:5"
-set $ws6   "6:6"
-set $ws7   "7:7"
+set $ws5   "5:五"
+set $ws6   "6:六"
+set $ws7   "7:七"
 set $ws8   "8:"
 set $ws9   "9:"
 set $ws10  "10:10"

@@ -12,11 +12,11 @@ line-size = 2
 module-margin = 2
 padding-right = 2
 
-font-0 = NotoSans-Regular:size=10.5;3
+font-0 = NotoSansCJKjp-Regular:size=10;2
 font-1 = FontAwesome5Free:style=Solid:size=10;2
 font-2 = FontAwesome5Brands:style=Solid:size=10;2
 font-3 = MaterialIcons:size=10;3
-font-4 = NotoSansMono-Regular:size=10.5;3
+font-4 = NotoSansMono-Regular:size=10;2
 font-5 = NotoSans-Regular:size=10.0;0
 
 tray-background = #221133
@@ -92,7 +92,7 @@ label-maxlen = 60
 type = custom/script
 exec = ~/.config/polybar/scripts/updates-arch-combined.sh
 interval = 43200
-format-prefix = " "
+format-prefix = "つつみ"
 
 [module/bandwidth]
 type = custom/script
@@ -124,20 +124,20 @@ mount-0 = /
 [module/memory]
 type = internal/memory
 interval = 5
-format-prefix = " "
+format-prefix = "きおく"
 label = %gb_used:1:2%
 fixed-values = true
 
 [module/cpu]
 type = internal/cpu
 interval = 5
-format-prefix = " "
+format-prefix = "しごと"
 label = %percentage:02%
 
 [module/temperature]
 type = internal/temperature
 interval = 5
-format-prefix = " "
+format-prefix = "あつい"
 label = %temperature:0:3%
 label-warn-foreground = #ff7777
 warn-temperature = 60
@@ -157,7 +157,7 @@ click-right = pavucontrol &
 
 [module/date]
 type = internal/date
-date =   %y-%m-%d  %H:%M:%S
+date = 今  %y-%m-%d  %H:%M:%S
 date-alt = %A, %d %B %Y  %H:%M:%S
 
 ; TODO
